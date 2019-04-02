@@ -4,17 +4,27 @@
   "description": "## Topics",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/maximesalomon/webauth-i-challenge.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Maxime Salomon",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/maximesalomon/webauth-i-challenge/issues"
   },
-  "homepage": "https://github.com/maximesalomon/webauth-i-challenge#readme"
+  "homepage": "https://github.com/maximesalomon/webauth-i-challenge#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "helmet": "^3.16.0",
+    "sqlite3": "^4.0.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
 }
